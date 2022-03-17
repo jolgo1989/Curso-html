@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Tablas</h1>
+    </header>
+
+    <main>
+      <table>
+        <!-- La etiqueta caption se utiliza cuando una tabla necesita un titulo -->
+        <caption>
+          Horario de clase
+        </caption>
+
+        <!-- las cabeceras de las tablas se establecen con la etiqueta thead.
+            Dentro tenderemos una etiqueta tr normal, pero en el caso de las celdas, las establecemos con la etiqueta th en lugar td. -->
+        <thead>
+          <tr>
+            <th></th>
+            <th>L</th>
+            <th>M</th>
+            <th>X</th>
+            <th>J</th>
+            <th>V</th>
+          </tr>
+        </thead>
+
+        <!-- El contenido de la tabla debe ir dentro de una etiqueta tbody para representar el cuerpo de la tabla, esta etiqueta es opcional siempre y cuando no estemos utilizando un thead, encuento establescamos una cabera con thead , el resto de bloques de una tabala deben estar dentro de tbody.
+
+            cualquier duda observar el video 2:56:12
+        -->
+        <tbody>
+          <tr>
+            <td>8:30 - 9:30</td>
+            <td>Matemáticas</td>
+            <td>Sociales</td>
+            <td>Castellano</td>
+            <td>Ingle</td>
+            <td>Informática</td>
+            <td>Artistica</td>
+          </tr>
+
+          <tr>
+            <td>9:30 - 10:25</td>
+            <td>Religión</td>
+            <td>Sociales</td>
+            <td>artistica</td>
+            <td>Ingle</td>
+            <td>Contabilidad</td>
+            <td>Artistica</td>
+          </tr>
+
+          <tr>
+            <td>10:25 - 11:30</td>
+            <td>Etica</td>
+            <td>Castellano</td>
+            <td>Castellano</td>
+            <td>Informática</td>
+            <td>Informática</td>
+            <td>Ingles</td>
+          </tr>
+
+          <tr>
+            <td>11:20 - 11:45</td>
+            <td>R</td>
+            <td>E</td>
+            <td>C</td>
+            <td>R</td>
+            <td>E</td>
+            <td>O</td>
+          </tr>
+
+          <tr>
+            <td>11:45 - 12:40</td>
+            <td>Emprendimiento</td>
+            <td>Castellano</td>
+            <td>Castellano</td>
+            <td>Sociales</td>
+            <td>Informática</td>
+            <td>Ingles</td>
+          </tr>
+
+          <tr>
+            <td>12:40 - 13:35</td>
+            <td>Filosofia</td>
+            <td>Filosofia</td>
+            <td>Castellano</td>
+            <td>Sociales</td>
+            <td>Informática</td>
+            <td>Ingles</td>
+          </tr>
+
+          <tr>
+            <td>13:35 - 14:30</td>
+            <td>Ingles</td>
+            <td>Informática</td>
+            <td>Informática</td>
+            <td>Castellano</td>
+            <td>Religión</td>
+            <td>Etica</td>
+          </tr>
+        </tbody>
+        <!-- De forma opcional podemos colocar un tfoo a la tabla para establecer un pie de tabla, esto es algo que algunas tablas tienen como suma de cantidades o total. -->
+        <tfoot>
+            <tr>
+                <td>Total de asignaturas</td>
+                <td>12</td>
+            </tr>
+        </tfoot>
+      </table>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
+
+<!-- las tablas en HTML sirven para contenido tabulado
+
+la estructura basica de una tabla se compone de:
+
+table -> etiqueta que encierra una tabla
+tr -> table row, etiqueta que construye una fila
+td -> table data, etiqueta que construye una celda
+
+truco: El numero de celdas dentro de un tr establecera el numero de columnas de la tabla 
+
+Los títulos de las tablas se establecen con la etiqueta caption, es una etiqueta opcional, y segun la especificación esa etiqueta se coloca justo despues de la etiqueta table -->
