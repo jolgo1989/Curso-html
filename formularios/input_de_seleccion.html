@@ -54,50 +54,52 @@
       <form>
         <h2>Elementos de selección</h2>
 
-          <select name="lenguajes">
-            <option value="html">HTML</option>
-            <option value="css">CSS</option>
-            <option value="kotlin">KOTLIN</option>
-            <option value="JavaScript">JavaScript</option>
-          </select>
+        <select name="lenguajes">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="kotlin">KOTLIN</option>
+          <option value="JavaScript">JavaScript</option>
+        </select>
       </form>
 
-        <!-- La etiqueta multiple indica multiples opciones que pueden ser seleccionadas en una lista
+      <!-- La etiqueta multiple indica multiples opciones que pueden ser seleccionadas en una lista
         Nota: Si queremos seleccionar mas de una se debe presionar control -->
       <form>
-          <h2>Elementos de selección con multiple</h2>
+        <h2>Elementos de selección con multiple</h2>
 
-          <select name="lenguajes" multiple>
-            <option value="html">HTML</option>
-            <option value="css">CSS</option>
-            <option value="kotlin">KOTLIN</option>
-            <option value="JavaScript">JavaScript</option>
-            <option value="html">HTML</option>
-            <option value="css">CSS</option>
-            <option value="kotlin">KOTLIN</option>
-            <option value="JavaScript">JavaScript</option>
-
-          </select>
+        <select name="lenguajes" multiple>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="kotlin">KOTLIN</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="kotlin">KOTLIN</option>
+          <option value="JavaScript">JavaScript</option>
+        </select>
       </form>
 
+      <!-- Si tenemos muchas opciones podemos ordenarlas por categorias a traves de las etiqueta <optgroup> con el atributo label para nombrar la categoria -->
+
       <form>
-          <h2>Elementos de selección avanzados</h2>
-          <select name="mascotas">
+        <h2>Elementos de selección avanzados</h2>
+        <select name="mascotas">
+          <optgroup label="4 patas">
             <option value="perro">Perro</option>
             <option value="gato">Gato</option>
             <option value="conejo">Conejo</option>
             <option value="burro">Burro</option>
-            <option value="tigre">Tigre</option>
-            <option value="raton">raton</option>
-            <option value="elefante">Elefante</option>
-            <option value="aguila">Aguila</option>
-          </select>
-
+          </optgroup>
+          <optgroup label="aves">
+          <option value="loro">Loro</option>
+          <option value="canario">Canario</option>
+        </optgroup>
+        <optgroup label="otras">
+          <option value="serpiente">Serpiente</option>
+          <option value="tarantula">Tarántula</option>
+        </optgroup>
+        </select>
       </form>
-
-
-
-
     </main>
     <footer></footer>
   </body>
