@@ -27,7 +27,9 @@
         <!-- Forma recomendada -->
         <input type="date" />
         <input type="time" />
+        <!-- Mes -->
         <input type="month" />
+        <!-- Semana -->
         <input type="week" />
       </form>
 
@@ -68,6 +70,19 @@
           </label>
         </div>
       </form>
+
+      <form>
+        <div>
+          <input type="color" />
+          <!-- recibe solo numero -->
+          <input type="number" />
+          <!-- cualquier duda observar el video en el 3:52:44 -->
+          <input type="range" step="5" min="0" max="20" />
+          <!-- Restablece todo sus valores por defecto -->
+          <input type="reset" />
+          <input type="text" />
+        </div>
+      </form>
     </main>
     <footer></footer>
   </body>
@@ -75,7 +90,8 @@
 
 <!-- input type
 button -> Se comporta igual que un boton <button>
-color -> Se utiliza para especificar un color
+submit -> Se utiliza para enviar un formulario
+
 
 *Input para fechas
 date -> Se utiliza para introducir una fecha
@@ -83,24 +99,21 @@ datetime -> obsoleto
 datetime-loca -> fecha y hora, no funciona en firefox
 week -> Se utiliza para introducir el número de semana del año
 month -> Se utiliza para introducir un mes
+time -> Se utiliza para introducir una hora
 
 *Input para moviles 
 email -> Se utiliza para introducir un email
 search -> Se utiliza para la barras de búsqueda
 tel -> Se utiliza para introducir números telefónicos
 url -> Se utiliza para introducir URls
-search -> Se utiliza para las barras de busqueda
-
-hidden -> Campo oculto, puede contener valor pero no se motrara
-number -> Se utiliza para valores numéricos
 password -> Se utiliza para contraseña
+
+*input extras
+color -> Se utiliza para especificar un color
+number -> Se utiliza para valores numéricos
 range -> Se utiliza para establecer un rango
 reset -> Se utiliza para resetear el fomulario
-
-submit -> Se utiliza para enviar un formulario
-
 text -> Valor por defecto
-time -> Se utiliza para introducir una hora
-
+hidden -> Campo oculto, puede contener valor pero no se motrara
 
 https://developer.mozilla.org/es/docs/Web/HTML/Element/input -->
