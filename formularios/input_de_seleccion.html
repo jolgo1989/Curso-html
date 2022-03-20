@@ -91,15 +91,30 @@
             <option value="burro">Burro</option>
           </optgroup>
           <optgroup label="aves">
-          <option value="loro">Loro</option>
-          <option value="canario">Canario</option>
-        </optgroup>
-        <optgroup label="otras">
-          <option value="serpiente">Serpiente</option>
-          <option value="tarantula">Tarántula</option>
-        </optgroup>
+            <option value="loro">Loro</option>
+            <option value="canario">Canario</option>
+          </optgroup>
+          <optgroup label="otras">
+            <option value="serpiente">Serpiente</option>
+            <option value="tarantula">Tarántula</option>
+          </optgroup>
         </select>
       </form>
+
+      <!-- se puede hacer un filtro escribiendo en la barra -->
+      <form>
+        <h2>Elementos de seleccionable(Data list)</h2>
+        <input type="list" list="pets" />
+        <datalist id="pets">
+          <option value="perro">Descripción opcional</option>
+          <option value="gato">Descripción opcional</option>
+          <option value="conejo">Descripción opcional</option>
+          <option value="burro">Descripción opcional</option>
+        </datalist>
+      </form>
+
+
+
     </main>
     <footer></footer>
   </body>
